@@ -1,0 +1,508 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+:root {
+    --color1 : #96958a;
+    --color2 : #76877d;
+    --color3 : #88b8a9;
+    --color4 : #b2cbae;
+    --color5 : #dbddb4;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins' , sans-serif;
+}
+
+button {
+    cursor: pointer;
+}
+
+body {
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    color: var(--color5);
+}
+
+header {
+    display: flex;
+    width: auto;
+    height: 50px;
+    padding: 20px;
+    justify-content: space-between;
+    align-content: center;
+    background-color: var(--color2);
+}
+
+nav {
+    display: flex;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+li {
+    padding: 20px;
+}
+
+a {
+
+  cursor: pointer;
+  text-decoration: none;
+  color: var(--color5);
+}
+
+section {
+    padding: 30px;
+    height: 100vh;
+    width: auto;
+    background-color: var(--color3);
+}
+
+.resumo {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color3); 
+}
+
+.perfil {
+    position: absolute;
+    top: 36%;
+    left: 5%;
+    translate: -calc(-36%);
+    height: 400px;
+    width: 450px;
+    border-radius: 100%;
+    padding: 10px;
+    box-shadow: #333 , 1rem;
+}
+
+.bct {
+    height: 600px;
+    width: 100vh;
+    padding-left: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.icons {
+    display: flex;
+    margin: 10px;
+    gap: 20px;
+}
+
+.icons a {
+    padding: 5px;
+    font-size: 20px;
+}
+
+.bct h2 {
+    padding: 20px;
+    font-size: 50px;
+}
+
+.bct p {
+    font-size: 20px;
+    margin: auto;
+    padding: 10px;
+    letter-spacing: 1px;
+    text-align: justify;
+}
+
+.bct button {
+    padding: auto;
+    width: 360px;
+    height: 50px;
+    background-color: var(--color2);
+    color: #fff;
+    border-radius: 50px;
+}
+
+.bct button:hover {
+    background-color: #fff;
+    color: black;
+}
+
+.habilidades {
+    background-color: var(--color4);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Forms {
+    display: flex;
+    flex-direction: row;
+    gap: 10rem;
+    color: var(--color2);
+}
+
+.Forms :hover {
+    background-color: #ccc;
+}
+
+.Forms section {
+    width: 250px;
+    height: 300px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    
+}
+
+.Forms section h3 {
+    font-size: 30px;
+}
+
+.Forms section p {
+    font-size: 20px;
+}
+
+.Forms .react {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+
+.Forms section .dotnet {
+    width: auto;
+    height: 100px;
+    border-radius: 200rem;
+}
+
+.Forms section .dotnet :hover {
+    color: #fff;
+}
+
+.formulario {
+    background-color: var(--color1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Contato {
+    width: 900px;
+    height: 900px;
+    display: flex;
+    gap: 4px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--color3);
+}
+
+.Contato p {
+    margin: 0px;
+    padding: 0px;
+    color: var(--color5);
+}
+
+.Contato #nome {
+    padding: 10px;
+    width: 40rem;
+    height: 3rem;
+}
+ 
+.Contato #assunto {
+    padding: 10px;
+    width: 40rem;
+    height: 3rem;
+}
+
+.Contato #email {
+    padding: 10px;
+    width: 40rem;
+    height: 3rem;
+}
+
+.Contato #menssage {
+    padding: 10px;
+    width: 40rem;
+    height: 15rem;
+}
+.Contato button {
+    padding: 5px;
+    width: 400px;
+    height: 40px;
+    color: #fff;
+    background-color: var(--color2);
+    border-radius: 40px;
+    box-shadow: #333, 1, 1, 1;
+    padding: 5px;
+}
+
+footer {
+    background-color: chartreuse;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 2rem 0;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+  }
+  
+  .footer-column {
+    text-align: left;
+  }
+  
+  .footer-column h3 {
+    margin-bottom: 1rem;
+  }
+  
+  .footer-column ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-column ul li {
+    margin-bottom: 0.5rem;
+  }
+  
+  .footer-column ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer-copyright {
+    text-align: center;
+    font-size: 0.8rem;
+    color: #ccc;
+  }
+
+  .cont {
+    background-color: var(--color4);
+  }
+
+  .experiencia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .experiencia h2 {
+    margin-bottom: 100px;
+  }
+
+  .experiencia ul {
+    flex-direction: column;
+    gap: 50px;
+    padding: 40px;
+    
+}
+
+.experiencia li {
+    padding: 50px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--color2);
+    border-radius: 40px;
+}
+
+.educacao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+
+  .educacao ul {
+    flex-direction: column;
+    gap: 50px;
+    padding: 40px;
+    
+}
+
+.educacao li {
+    padding: 50px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--color2);
+    border-radius: 40px;
+}
+
+.skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+
+  .skills ul {
+    flex-direction: column;
+    gap: 50px;
+    padding: 40px;
+    
+}
+
+.skills li {
+    padding: 50px;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--color2);
+    border-radius: 40px;
+}
+
+.contato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.contato ul {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 50px;
+    padding: 40px;
+    width: 400px;
+    border-radius: 30px;
+    background-color: var(--color2);
+}
+.Projeto {
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--color3);
+}
+
+
+.calculator {
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    background: var(--color2);
+    margin: 20px;
+}
+
+.calculator h1 {
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+.calculator p {
+    font-size: 14px;
+    padding: 10px;
+}
+
+.calculator b {
+    font-size: 20px;
+}
+
+.calculator img {
+    width: 300px;
+    height: 400px;
+    border-radius: 10px;
+
+}
+
+.website {
+    width: 600px;
+    height: 600px;
+    background: var(--color2);
+    margin: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.website img {
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.website h1 {
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+.website p {
+    font-size: 14px;
+    padding: 10px;
+}
+
+.website b {
+    font-size: 20px;
+}
+
+
+.mobile {
+    width: 600px;
+    height: 600px;
+    background: var(--color2);
+    margin: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mobile h1 {
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+.mobile p {
+    font-size: 14px;
+    padding: 10px;
+}
+
+.mobile b {
+    font-size: 20px;
+}
+
+.mobile img {
+    width: 600px;
+    height: 400px;
+    border-radius: 50px;
+}
+body {
+    background-color: var(--color3);
+}
+.prj {
+    font-size: 40px;
+    position: absolute;
+    top: 15%;
+    left: 45%;
+}
+
